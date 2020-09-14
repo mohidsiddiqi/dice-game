@@ -1,0 +1,126 @@
+body{
+    background-color: #1a1a2e;
+    color: #28df99;
+    font-family: 'Amatic SC', cursive;
+}
+
+.heading {
+    color: #28df99;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 8rem;
+    text-shadow: 5px 5px black;
+    word-spacing: -25px;
+}
+
+
+.retry {
+    color: rgb(115, 151, 219);
+    cursor: pointer;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3rem;
+    text-shadow: 4px 4px black;
+}
+
+.footer{
+    color: blanchedalmond;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 2%;
+}
+
+#topheading .fas{
+    
+    font-size: 5rem;
+    
+}
+.fa-play{
+    color: lawngreen;
+    cursor: pointer;
+    position: relative;
+    bottom: 0.65rem;
+    text-shadow: 5px 5px black;
+}
+.fa-trophy{
+    color: gold;
+}
+
+@media (min-width:768px) and (max-width:991.8px)
+{
+    .heading {
+        font-size: 7rem;
+        word-spacing: -31px;
+    }
+    #topheading .fas{
+        font-size: 4rem;
+    }
+    .winner{
+        font-size: 5rem;
+        word-spacing: -10px;
+    }
+    
+}
+
+@media (min-width:500px) and (max-width:767px)
+{
+    .heading {
+        font-size: 5rem;
+        word-spacing: -18px;
+        
+    }
+    #topheading .fas{
+        font-size: 3rem;
+    }
+
+    .winner{
+        font-size: 3rem;
+        word-spacing: -5px;
+    }
+    .retry {
+        
+        font-size: 2rem;
+     
+    }
+}
+
+
+@media (max-width:499px)
+{
+    .heading {
+        font-size: 3.2rem;
+        word-spacing: -10px;
+        
+    }
+    #topheading .fas{
+        font-size: 2rem;
+    }
+
+    .winner{
+        font-size: 2.2rem;
+        word-spacing: -7px;
+    }
+    .retry {
+        
+        font-size: 1.7rem;
+     
+    }
+
+    .fa-play{
+        bottom: 5px;
+    }
+    .footer{
+        font-size: 1.3rem;
+    }
+}
+
+.player-container{
+    margin:2% 0 3%;
+}
+.player-container p{
+    font-size: 3rem;
+   
+}
+.dice-image{
+
+    width: 40%;
+}
+
